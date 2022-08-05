@@ -20,9 +20,9 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # Modify default IP
-sed -i 's/192.168.1.1/2.2.2.1/g' package/base-files/files/bin/config_generate
+# sed -i 's/192.168.1.1/2.2.2.1/g' package/base-files/files/bin/config_generate
 # 修改机器名称
-sed -i 's/OpenWrt/OneCloud/g' package/base-files/files/bin/config_generate
+# sed -i 's/OpenWrt/OneCloud/g' package/base-files/files/bin/config_generate
 # 修改机器初始密码
 # sed -i 's/root::0:0:99999:7:::/root::0:0:99999:7:::/g' package/base-files/files/etc/shadow
 
